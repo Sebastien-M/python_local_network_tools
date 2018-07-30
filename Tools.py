@@ -6,9 +6,6 @@ class Tools():
 	def __init__(self):
 		pass
 
-	
-		
-
 	def TCP_connect(self, ip, port_number, delay, output):
 	    TCPsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	    TCPsock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -19,10 +16,7 @@ class Tools():
 	    except:
 	        output[port_number] = ''
 
-
-
 	def scan_ports(self, host_ip, delay):
-
 	    threads = []        # To run TCP_connect concurrently
 	    output = {}         # For printing purposes
 

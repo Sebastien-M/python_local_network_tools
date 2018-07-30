@@ -17,8 +17,6 @@ tools = Tools()
 port = 22
 start = 1
 while start == 1 :
-
-
 	network = '192.168.1.' 
 
 	def is_up(addr, port):
@@ -44,8 +42,6 @@ while start == 1 :
 		run(22)
 		print('Done')
 
-
-
 	try:
 		inp = colored(">>>","red",attrs=['bold'])
 		command = input(inp)
@@ -67,7 +63,6 @@ while start == 1 :
 			send(num choose)
 	
 			"""
-			#print(colored("\n[*] ERROR NO MAC ADRESS AND NUM","red",attrs=['bold']))
 			break
 		else:
 			print(' \'{}\'is not an internal command'.format(command))
