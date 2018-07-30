@@ -1,4 +1,4 @@
-# python_local_network_tools
+# python local network tools
 
 Runs on python >=3.5
 
